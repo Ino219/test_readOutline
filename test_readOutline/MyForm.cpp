@@ -116,6 +116,7 @@ MyForm::OutlineData^ testreadOutline::MyForm::retOutlineData(cli::array<String^>
 	bool sucWidth = int::TryParse(list[2], reswidth);
 	bool sucRadius = int::TryParse(list[3], resradius);
 
+
 	if (sucX&&sucY&&sucWidth&&sucRadius) {
 		data->X = resX;
 		data->Y = resY;
